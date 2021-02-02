@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "DOM", "ES2017", "ESNext.AsyncIterable"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build/src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
